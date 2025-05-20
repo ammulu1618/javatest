@@ -1,0 +1,93 @@
+class Bank
+{
+    public static void main(String args[])
+    {
+        Sbi s1 = new Rbi();
+        Canara s2 = new Canara();
+        s1.policy();
+        s1.policy(55000);
+        s2.policyM1(10);
+        s2.policyM1(12);
+        
+    }
+} 
+class Sbi  
+{
+    int age;
+    String name;
+    int photos;
+    long andhar_no;
+    String pan;
+    int balance;
+    {
+      age=20;
+      name=Abhi;
+      photos=2;
+      andhar_no=25549871;
+      pan=ESD8954; 
+      balance=55000;
+    }
+    void policy()
+    {
+      if(age=18 && balance=50000)
+      {
+       System.out.println(policy is applied);
+      }
+      else
+      {
+        System.out.println(can not applied policy);
+      }
+    }
+      void policy(int balance)
+      {
+         if(balance200000)
+         {
+             System.out.println(Lic is applied);
+         }
+         else
+         {
+             System.out.println(can not applied Lic);
+         }
+      } 
+     
+}
+class Rbi extends Sbi
+{
+     int age;
+     String name;
+     long andhar_no;
+     int balance;
+     {
+         age=50;
+         name=lilly;
+         andhar_no=2578845;
+         balance=1500;
+     }
+    void policyM1(int age)
+    {
+       if(age=10 && balance=50000)
+       {
+         System.out.println(policy is applied);
+       }
+       else
+       {
+       System.out.println(Cannot applied policy..);
+       }
+    }
+}
+class Canara
+{
+    int balance=1500;
+    void policyM1(int age)
+    {
+        if(age=18 && balance200000)
+        {
+         System.out.println(Lic is applied);
+        }
+        else 
+        {
+            System.out.println(can not applied Lic);
+        }
+    }
+    
+}
